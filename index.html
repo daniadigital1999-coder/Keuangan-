@@ -1,0 +1,37 @@
+streaming-business-manager/
+├── app/                          # Next.js app directory
+│   ├── layout.tsx               # Root layout
+│   ├── page.tsx                 # Home page
+│   ├── dashboard/               # Dashboard
+│   │   └── page.tsx
+│   ├── income/                  # Pemasukan
+│   │   ├── page.tsx
+│   │   └── form.tsx
+│   ├── expense/                 # Pengeluaran
+│   │   ├── page.tsx
+│   │   └── form.tsx
+│   ├── calculator/              # Kalkulator
+│   │   └── page.tsx
+│   ├── statistics/              # Statistik
+│   │   ├── daily.tsx
+│   │   └── monthly.tsx
+│   └── api/                     # API routes
+│       ├── income/
+│       ├── expense/
+│       └── statistics/
+├── components/                   # Reusable components
+│   ├── Header.tsx
+│   ├── Sidebar.tsx
+│   ├── Card.tsx
+│   └── Chart.tsx
+├── lib/                         # Utilities & helpers
+│   ├── storage.ts
+│   ├── calculator.ts
+│   └── export.ts
+├── styles/                      # CSS & Tailwind
+│   └── globals.css
+├── public/                      # Static files
+├── package.json
+├── tsconfig.json
+├── next.config.js
+└── README.md
